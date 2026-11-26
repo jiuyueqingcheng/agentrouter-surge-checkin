@@ -48,7 +48,7 @@
  *
  * ===== Surge =====
  * [Script]
- * AgentRouter签到 = type=cron,cronexp="0 9 * * *",timeout=60,script-path=https://raw.githubusercontent.com/JiuYueQingCheng/agentrouter-surge-checkin/main/agentrouter.js,argument=username=你的账号&password=你的密码
+ * AgentRouter签到 = type=cron,cronexp="0 9 * * *",timeout=60,script-path=https://cdn.jsdelivr.net/gh/JiuYueQingCheng/agentrouter-surge-checkin@main/agentrouter.js,argument=username=你的账号&password=你的密码
  * 也可以直接用随附的 agentrouter.sgmodule 导入 Surge（见 README.md）。
  *
  * ===== Loon =====

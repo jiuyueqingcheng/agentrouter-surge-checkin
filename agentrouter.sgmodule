@@ -6,7 +6,7 @@
 #!arguments-desc=username：AgentRouter 账号；password：AgentRouter 密码（密码里有 & 请写 %26，有 = 请写 %3D）；checkin_hour：每天签到小时（0-23，默认 9）；checkin_minute：每天签到分钟（0-59，默认 0）。如果账号是用 GitHub / LinuxDo 第三方登录创建的，先在网站个人设置里给账号设一个密码，否则账号密码登录会失败。
 
 [Script]
-AgentRouter签到 = type=cron,cronexp="{{{checkin_minute}}} {{{checkin_hour}}} * * *",timeout=60,script-path=https://raw.githubusercontent.com/JiuYueQingCheng/agentrouter-surge-checkin/main/agentrouter.js,argument=username={{{username}}}&password={{{password}}}
+AgentRouter签到 = type=cron,cronexp="{{{checkin_minute}}} {{{checkin_hour}}} * * *",timeout=60,script-path=https://cdn.jsdelivr.net/gh/JiuYueQingCheng/agentrouter-surge-checkin@main/agentrouter.js,argument=username={{{username}}}&password={{{password}}}
 
 [MITM]
 hostname = %APPEND% agentrouter.org

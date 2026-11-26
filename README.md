@@ -7,7 +7,7 @@ AgentRouter（https://agentrouter.org）每日登录签到模块：**登录本�
 1. 在 Surge 里打开模块安装链接：
 
    ```
-   https://raw.githubusercontent.com/JiuYueQingCheng/agentrouter-surge-checkin/main/agentrouter.sgmodule
+   https://cdn.jsdelivr.net/gh/JiuYueQingCheng/agentrouter-surge-checkin@main/agentrouter.sgmodule
    ```
 
 2. 导入后在模块的「编辑参数」里填写：
